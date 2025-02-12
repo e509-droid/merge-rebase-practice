@@ -1,0 +1,30 @@
+  154  nano script_YEVHENIIA.sh
+  155  chmod +x script_YEVHENIIA.sh
+  156  ./script_YEVHENIIA.sh
+  157  cp script_YEVHENIIA.sh /tmp/
+  158  ls -l /tmp/script_YEVHENIIA.sh
+  159  ssh ec2-user@linux.itcareerhub.de
+  160  git add .gitignore
+  161  git clone https://github.com/e509-droid/merge-rebase-practice
+  162  cd merge-rebase-practice
+  163  git checkout -b feature
+  164  echo "# Project on Git" > README.md
+  165  echo "node_modules/" >> .gitignore
+  166  git status
+  167  git add.
+  168  git commit -m
+  169  git commit -m "Addet README and updated .gitignore"
+  170  git add README.md .gitignore
+  171  git commit -m "Added README and updated .gitignore"
+  172  git push -u origin feature
+  173  zanuda5432@gmail.com
+  174  git push -u origin feature
+  175  git commit --amend -m "Added README and updated .gitignore (amend)"
+  176  git push --force origin feature
+  177  git checkout main
+  178  git pull origin main
+  179  git merge feature
+  180  git push origin main
+  181  who -b
+  182  echo $HISTTIMEFORMAT
+  183  history | tail -30 > history.txt
